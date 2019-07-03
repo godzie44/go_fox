@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"flag"
 	"fmt"
+	"github.com/godzie44/go_fox/fixture"
+	"github.com/godzie44/go_fox/search"
 	"github.com/gorilla/mux"
 	_ "github.com/lib/pq"
-	"github.com/user/godzie44/go_fox/fixture"
-	"github.com/user/godzie44/go_fox/search"
 	"log"
 	"net/http"
 )
